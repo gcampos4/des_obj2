@@ -30,7 +30,7 @@ prom_total = 0
 recaudaciones_total.each do |product|
   puts product.table
   puts product.total
-  puts "el mayor de esta mesa es #{product.mayor}, carrespone al dia #{product.dia}"
+  puts "el mayor de esta mesa es #{product.mayor}, carresponde al dia #{product.dia}"
   #puts product.promedio
   prom_total += product.promedio
 end
